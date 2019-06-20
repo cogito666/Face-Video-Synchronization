@@ -1,0 +1,13 @@
+%% Face Director (landmark approach)
+clc;
+clear all;
+
+%%
+npy_matlab_p = '/home/cmlkaist/Desktop/FD Validation/npy-matlab';
+addpath()
+savepath
+
+
+%%
+cost_matrix_with_mfcc_numpy = '/home/cmlkaist/Desktop/test/result/cost_matrix_from_face_director_with_mfcc.npy';
+cost_matrix_with_mfcc = readNPY(cost_matrix_with_mfcc_numpy);
